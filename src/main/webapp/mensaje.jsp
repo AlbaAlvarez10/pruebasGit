@@ -10,18 +10,19 @@
     <%
  
         // Crea instancias de las clases
-        Clase1 clase1 = new Clase1();
+        
         Clase2 clase2 = new Clase2();
         Clase3 clase3 = new Clase3();
 
         // Llama a los métodos para obtener los mensajes
-        String mensaje1 = clase1.imprimirMensaje();
+        
         String mensaje2 = clase2.imprimirMensaje();
         String mensaje3 = clase3.imprimirMensaje();
     %>
     <h1>Pruebas Git</h1>
-    <p>Mensaje desde Clase1: <%= mensaje1 %></p>
+    
     <p>Mensaje desde Clase2: <%= mensaje2 %></p>
     <p>Mensaje desde Clase3: <%=mensaje3 %></p>
+
 </body>
 </html>
