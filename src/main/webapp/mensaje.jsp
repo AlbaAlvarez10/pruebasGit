@@ -17,7 +17,7 @@
         String mensaje1 = clase1.imprimirMensaje();
         String mensaje2 = clase2.imprimirMensaje();
     %>
-    
+    <h1>Pruebas Git</h1>
     <p>Mensaje desde Clase1: <%= mensaje1 %></p>
     <p>Mensaje desde Clase2: <%= mensaje2 %></p>
 </body>
